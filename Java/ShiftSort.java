@@ -1,4 +1,6 @@
-/* James Quintero */
+/* 
+* Copyright (C) 2017 James Quintero
+*/
 
 import java.util.*;
 import java.io.*;

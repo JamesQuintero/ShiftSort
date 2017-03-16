@@ -1,3 +1,7 @@
+/* 
+* Copyright (C) 2017 James Quintero
+*/
+
 #include <iostream>
 #include <math.h>
 #include "ShiftSort.h"
