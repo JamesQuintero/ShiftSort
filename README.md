@@ -1,6 +1,7 @@
 # ShiftSort
-ShiftSort is quicker than MergeSort
-Shift Sort is a merging algorithm like Merge Sort, but is more selective on what it merges. Merge Sort splits its array in half continuously until reaching its base case of 2 elements, swaps if needed, and then merges as it returns. Shift Sort uses a derivative array to split in half continuously until reaching a base case of 2 or 3 elements, uses the results to determine what parts of the array to merge, and then merges as it returns.
+ShiftSort is quicker than MergeSort. 
+Shift Sort is a merging algorithm like Merge Sort, but sorts a derivative of array. Merge Sort splits its array in half continuously until reaching its base case of 2 elements, swaps if needed, and then merges as it returns. Shift Sort uses a derivative array which it splits in half continuously until reaching a base case of 2 or 3 elements, uses the results to determine what parts of the original array to merge, and then merges as it returns. The sorted sublists in array are merged by making a copy of one of the lists, and merging it with the other list by shifting and adding elements.
+
 Shift Sort time and space complexities:
 
 | Complexity |   BigO   |
