@@ -16,9 +16,9 @@ Shift Sort has a best-case time complexity of O(n) because it uses a secondary l
 Shift Sort’s O(n) beats Merge Sort’s O(nlogn). Shift Sort’s average-case complexity is the same as Merge Sort’s, but in real world testing, Shift Sort out performs Merge Sort. For space, at worst, Shift Sort will initialize a second and third list of about n/2, putting the total at n. 
 
 
-**Main parts of Shift Sort: **
+** Main parts of Shift Sort: **
 1)	Derivative List Creation
 2)	Splitting of Derivative list
 3)	Merging Sublists
 
-*[See ShiftSort-Analysis.pdf for step-by-step on Shift Sort's inner workings](../blob/master/ShiftSort-Analysis.pdf)*
+*[See ShiftSort-Analysis.pdf for step-by-step on Shift Sort's inner workings](../master/ShiftSort-Analysis.pdf)*
