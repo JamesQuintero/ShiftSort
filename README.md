@@ -1,5 +1,7 @@
 # ShiftSort
 
+![Preview](./ShiftSort%20vs%20MergeSort%20execution%20time%20graph.PNG)
+
 ShiftSort is a stable, adaptive, divide-and-conquer sorting algorithm. It’s similar to Merge Sort, but is more selective on what it merges. Merge Sort splits its array in half continuously until reaching its base case of 2 elements, swaps if needed, and then merges as it returns. Shift Sort uses a derivative array to split in half continuously until reaching a base case of 2 or 3 elements, uses the results to determine what parts of the array to merge, and then merges as it returns. 
 
 
