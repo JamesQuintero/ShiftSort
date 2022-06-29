@@ -5,9 +5,9 @@
 #pragma once
 #include <iostream>
 #include <iterator>
+#include <vector>
 
-
-
+using namespace std;
 
 template <class RandomAccessIterator>
 void merge(RandomAccessIterator array, int first_index, int second_index, int third_index)
@@ -33,7 +33,7 @@ void merge(RandomAccessIterator array, int first_index, int second_index, int th
     while(second_counter>0)
     {
       //shift if left is greater than right
-      if(left>=first_index && array[left]>=temp_2nd[second_counter-1])
+      if(left>=first_index && array[left]>temp_2nd[second_counter-1])
       {
         array[left+second_counter]=array[left];
         left--;
@@ -88,8 +88,6 @@ void merge(RandomAccessIterator array, int first_index, int second_index, int th
 
 }
 
-
-using namespace std;
 template <class RandomAccessIterator>
 void split(RandomAccessIterator array, int *zero_indices, int i, int j)
 {

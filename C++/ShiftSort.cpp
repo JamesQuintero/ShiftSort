@@ -117,7 +117,7 @@ void ShiftSort::merge(int *array, int first_index, int second_index, int third_i
       while(second_counter>0)
       {
           //shift if left is greater than right
-          if(left>=first_index && array[left]>=temp_2nd[second_counter-1])
+          if(left>=first_index && array[left]>temp_2nd[second_counter-1])
           {
               array[left+second_counter]=array[left];
               left--;
